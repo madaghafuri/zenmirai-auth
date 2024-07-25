@@ -7,6 +7,11 @@
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
 
+### Install Modules
+```
+npm install
+```
+
 ### Run Development Server
 ```
 npm run dev
