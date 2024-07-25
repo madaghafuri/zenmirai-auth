@@ -1,5 +1,5 @@
 {
-  "name": "admin",
+  "name": "frontend",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -10,16 +10,21 @@
     "lint": "eslint src/"
   },
   "dependencies": {
+    "@repo/ui": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@repo/ui": "*"
+    "react-hook-form": "^7.52.1",
+    "react-router-dom": "^6.25.1"
   },
   "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
     "@types/react": "^18.2.62",
     "@types/react-dom": "^18.2.19",
     "@vitejs/plugin-react": "^4.2.1",
-    "@repo/eslint-config": "*",
-    "@repo/typescript-config": "*",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6",
     "typescript": "^5.3.3",
     "vite": "^5.1.4"
   }
